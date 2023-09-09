@@ -1,0 +1,94 @@
+body {
+  /* height: 100%; */
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: 2px solid #fff;
+}
+
+.first {
+  /* width: 100%; */
+  /* height: 100%; */
+  background-color: black;
+  position: relative;
+  border: 10px solid black;
+}
+
+.firstRow {
+  width: 100%;
+  height: 90px;
+  background-color: #64a8ff;
+}
+
+.secondRow {
+  width: 100%;
+  height: 80px;
+}
+
+.thirdrow {
+  position: absolute;
+}
+
+.R2C1 {
+  width: 25%;
+  height: 50px;
+  background: #e87a44;
+  position: absolute;
+  left: 0;
+}
+
+.R2C2 {
+  width: 25%;
+  height: 50px;
+  background: #784100;
+  position: absolute;
+  left: 25%;
+}
+
+.R2C3 {
+  width: 25%;
+  height: 50px;
+  background: #ff7498;
+  position: absolute;
+  left: 50%;
+}
+
+.R2C4 {
+  width: 25%;
+  height: 50px;
+  background: #5b5ab2;
+  position: absolute;
+  left: 75%;
+}
+
+.R3C1 {
+  width: 12.5%;
+  height: 440px;
+  background: #cd94e2;
+}
+
+.R3C3 {
+  width: 120px;
+  height: 120px;
+  background: #806800;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid white;
+}
+
+.R3C4 {
+  width: 12.5%;
+  height: 490px;
+  background: #41474a;
+  position: absolute;
+  right: 0;
+  top: 22%;
+}
+
+.forthRow {
+  width: 90%;
+  height: 100px;
+  background: #217544;
+}
